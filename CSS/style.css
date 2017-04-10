@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 49px;
+  background-color: #953692;
+  font-family:roboto;
+  font-weight:200;
+  font-size:40px;
+  color: #fff;
+}
+
+header {
+  background-color: white;
+  height: 49px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+header .logo {
+  max-height: 100%;
+  margin: 5px;
+  height: 26px;
+  width:100px;
+
+}
+
+section {
+  display: none;
+  margin: 15vh 25vw;
+  text-align: center;
+}
+
+p {
+  margin: 20px 0px;
+}
+
+h3 {
+  font-weight:400;
+  font-size:50px;
+}
+
+#page1 {
+  display:block;
+}
+
+input {
+  border:none;
+  outline:none;
+  margin-top:30px;
+  padding:2px;
+  background: transparent;
+  border-bottom: 2px solid white;
+  font-weight:400;
+  font-size:40px;
+  line-height:60px;
+  text-align: center;
+  display:inline-block;
+}
+
+select {
+  border:none;
+  outline:none;
+  margin-top:30px;
+  padding:2px;
+  background: transparent;
+  border-bottom: 2px solid white;
+  font-weight:400;
+  font-size:30px;
+  line-height:60px;
+  text-align: center;
+  display:inline-block;
+}
+
+input .input-password {
+  width: 300px;
+}
+
+select .input-co-owners {
+  width: 200px
+}
+
+a.exit-path {
+  font-size: 20px;
+}
+
+p .username .password {
+  color: black;
+}
+
+
+button {
+padding: 10px 30px;
+margin: 30px 5px;
+font-size: 1em;
+color: white;
+border-radius: 5px;
+display: inline-block;
+background-color: #16a085;
+border: 2px solid #16a085;
+align-self: center;
+}
+
+#page5_second_half {
+  display: none;
+}
+
+button:hover {
+background-color: #1abc9c;
+border: 2px solid #fff;
+}
+
+.first-name, .member2name {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.email-address {
+  font-weight: 500;
+  color:black;
+}
+
+.main-co-owner{
+  color:black;
+}
+
+p.co-owner {
+  margin-bottom: 0;
+  margin-top: 40px;
+}

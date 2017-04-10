@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!---Gridlex stylesheet--->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.2.4/gridlex.min.css">
+  <!---master stylesheet--->
+  <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+</head>
+<header>
+<img class="logo" src="images/coHome black small.png"/>
+</header>
+<body>
+  <section id="page1">
+    <p>
+      Hi there, welcome to coHome. We're excited to have you on board.
+      We need to grab a couple of details to get you up and running.
+    </p>
+    <p>
+      First, let's start with your name <input type="text" class="input-first-name" placeholder="enter your first name" autofocus/>
+    </p>
+    <div>
+      <button class="next1">Next</button>
+    </div>
+  </section>
+
+  <section id="page2">
+    <p>
+      Great, nice to meet you <span class="first-name"></span>.
+    </p>
+
+    <p>
+      Now can we grab your email <input type="email" class="input-email-address" placeholder="you@email.com"/>
+    </p>
+
+    <div>
+      <button class="lets-go">Let's go</button>
+    </div>
+  </section>
+
+  <section id="page3">
+    <p>
+      Alright, it’s time to setup your group.
+    </p>
+    <p>
+      How many people will you be buying with? (Not including you).
+    </p>
+      <div class="co-owners">
+        <select class="input-co-owners">
+          <option selected disabled>Select an answer</option>
+          <option value="1">1 person</option>
+          <option value="2">2 people</option>
+          <option value="3">3 people</option>
+          <option value="4">4 people</option>
+        </select>
+      </div>
+        <a href="#page-save" class="exit-path">I don't know yet</a>
+      </div>
+    <div>
+      <button class="next2">Next</button>
+    </div>
+  </section>
+
+  <section id="page-save">
+    <p>
+      No worries. That's it for now <span class="first-name"></span>.
+    </p>
+    <p>
+      Simply enter a password so that you can come back when you are ready to take the next steps.
+    </p>
+    <p class="username">
+      Username: <span class="email-address"></span>
+    </p>
+    <p>
+      Password: <input type="password" class="input-password" placeholder="enter a password" />
+    </p>
+    <div>
+      <button onclick="location.href='http://www.cohome.co'" class="save">Save & exit</button>
+    </div>
+  </section>
+
+  <section id="page4">
+    <p>
+      Tell us about the others in your group.
+    </p>
+    <p>
+      <p class="main-co-owner">Member #1</p>
+        <span class="first-name main-co-owner"></span>
+        <div id="additional-member-input"></div>
+    </p>
+      <div>
+        <button class="next3">Next</button>
+      </div>
+    </section>
+
+    <section id="page5">
+      <p>
+        Now that you are ready to go. Have you found a property you would like to buy yet?
+      </p>
+      <p>
+        <select class="input-found-property">
+          <option selected disabled>Select an answer</option>
+          <option value="yes">Yes, we have</option>
+          <option value="no">No, not yet</option>
+        </select>
+      </p>
+
+      <div id="page5_second_half">
+        Great, what would you like to do next?
+        <select class="input-loan-or-contract">
+          <option selected disabled>Select an answer</option>
+          <option value="home-loan">Talk to someone about home loan options</option>
+          <option value="legal-contract">Finance is sorted, we just want the legal contract </option>
+        </select>
+        <div>
+          <button class="lets-do-it">Let's do it</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="home-loan-option">
+      <p>
+        At coHome we have access to over 40 different lenders, including the majors. Our broker can work with you to find a home loan that is right for your group.
+      </p>
+      <p>
+        Please enter a phone number so we can get them to give you a call <input type="text" class="input-phone-number" placeholder="0400 000 000" />
+      </p>
+      <p>
+        What time best suits for a phone call?
+        <select class="input-time-to-call">
+          <option selected disabled>Select an answer</option>
+          <option value="call-time">9am - 12pm</option>
+          <option value="call-time">12pm - 5pm</option>
+          <option value="call-time">After 5pm</option>
+        </select>
+      </p>
+      <div>
+        <button onclick="location.href='http://www.cohome.co'" class="save">Call me</button>
+      </div>
+    </section>
+
+    <section id="legal-contract-option">
+      <p>
+        This is where the contract builder will go.
+      </p>
+    </section>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="js/script.js"></script>
+    </body>
+    </html>
