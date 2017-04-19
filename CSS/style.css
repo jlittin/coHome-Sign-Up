@@ -57,6 +57,7 @@ input {
   border-bottom: 2px solid white;
   font-weight:400;
   font-size:40px;
+  font-family: 'Nunito', sans-serif;
   line-height:60px;
   text-align: center;
   display:inline-block;
@@ -71,6 +72,7 @@ select {
   border-bottom: 2px solid white;
   font-weight:400;
   font-size:30px;
+  font-family: 'Nunito', sans-serif;
   line-height:60px;
   text-align: center;
   display:inline-block;
